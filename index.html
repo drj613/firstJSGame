@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Psychic!</title>
-	<script type="text/javascript" src="game.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-</head>
-<body>
-	<h1>Are you psychic? Let's find out.</h1>
-	<h2>Pick a letter, A-Z</h2>
-	<ul id="">
-		<li><p id ="wins">Wins:</p></li>
-		<li><p id ="losses">Losses:</p></li>
-		<li><p id ="gLeft">Guesses left:</p></li>
-		<li><p id ="guessed">Letters guessed so far:</p></li>
-	</ul>
+	<head>
+		<title>Psychic!</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
 
-</body>
+	<body>
+		<div class="wrapper">
+
+			<h1 style="text-align: center">Are you psychic? Let's find out.</h1>
+
+			<h2 style="text-align: center">Pick a letter, A-Z</h2>
+
+			<div id ="game">
+				<ul class="list-group">
+					<li class ="list-group-item" id ="wins">Wins:</li>
+					<li class ="list-group-item" id ="losses">Losses:</li>
+					<li class ="list-group-item" id ="gLeft">Guesses left:</li>
+					<li class ="list-group-item" id ="guessed">Letters guessed so far:</li>
+				</ul>
+			</div>
+
+		</div>
+	</body>
 </html>
